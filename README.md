@@ -10,3 +10,20 @@ here are the list od the shortcu keys and there description in short
 6.         alt+Shift up/down arrow    for repeating the same line multiple time we can print/instead of typing the same line multiple time we can repeat the in the code space.....
 7.         alt+up/down arrow          selecting one line and moving that line to up of down where ever we want that in the programm.......
 8.         ctrl+j                     open or close Terminal.........
+
+
+
+# Day-1
+tags 
+h1-h6 for headding
+p for paragraph
+img for image insert
+head
+body
+
+# day 2
+a tag anchor
+list tags
+orderd list,unorderd list, list
+table tags
+table row,table heading, table data
