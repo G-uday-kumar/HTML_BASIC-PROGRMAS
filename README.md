@@ -13,7 +13,7 @@ here are the list od the shortcu keys and there description in short
 
 
 
-# Day-1
+# Day-1.....4/2/26
 tags 
 h1-h6 for headding
 p for paragraph
@@ -21,7 +21,7 @@ img for image insert
 head
 body
 
-# day 2
+# day 2....5/2/26
 a tag anchor
 list tags
 orderd list,unorderd list, list
@@ -30,3 +30,7 @@ table row,table heading, table data
 done project on table that is list of foods 
 and the 5 teachers list creation
 and one more form the using the some basic tags 
+
+# Day 3...... 6/2/26
+today we learnt Form tag and its usage nad the next is
+input tags and many form of input tags and inside the placeholder,  type.. text,submit,button
