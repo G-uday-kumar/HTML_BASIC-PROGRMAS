@@ -1,0 +1,84 @@
+div{
+    background-color: bisque;
+    width: 100%;
+    h1 {
+        text-align: center;
+        background: #aebc2d;
+        text-decoration: underline;
+        color: blue;
+        font-size: 100px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: normal;
+
+    }
+
+    h3 {
+        text-align: left;
+        text-decoration: underline;
+        color: rgb(218, 110, 230);
+        font-size: 30px;
+
+    }
+
+    #one{
+        text-align: left;
+       
+        color: rgb(220, 117, 61);
+        font-size: 40px;
+
+    }
+
+    
+ 
+    p {
+        font-weight: bold;
+        font-size: 35px;
+        font-style: italic;
+        font-family: 'Courier New', Courier, monospace;
+        color: chocolate;
+        text-align: justify;
+    }
+
+    img {
+        height: 200%;
+        width: 100%;
+        align-items: center;
+    }
+    #oo{ 
+        color: rgb(230, 227, 230);
+        font-size: 30px;
+        background-color: rgb(122, 122, 222);
+        
+    }
+    #op{
+        
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        background-color: rgb(148, 110, 115);
+    }
+    #two{
+        background-color: rgb(88, 140, 55);
+        font-size: 30px;
+    }
+    #eee{
+        background-color: rgb(174, 174, 29);
+    }
+    #btn{
+        text-align: center;
+        color-scheme: inherit;
+        color:green;
+        font-size: 20px;
+        font-weight: bold;
+        background: #55ad65;
+        
+    }
+    #btt{
+        text-align: center;
+        color-scheme: inherit;
+        color:rgb(27, 61, 27);
+        font-size: 20px;
+        font-weight: bold;
+        background: #daec0b;
+        
+    }
+}

@@ -1,0 +1,36 @@
+div {
+    h1{
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: capitalize;
+        text-decoration: underline;
+        text-align: center;
+        background: rgb(4, 48, 4);
+    }
+    background: #210023;
+    text-decoration: solid;
+    font-weight: bold;
+    color: white;
+    input {
+        font-size: 20px;
+    }
+
+    #on {
+        text-align: center;
+        color-scheme: inherit;
+        color: green;
+        font-size: 20px;
+        font-weight: bold;
+        background: #55ad65;
+
+    }
+
+    #sb{
+        text-align: center;
+        color-scheme: inherit;
+        color: rgb(252, 252, 252);
+        font-size: 20px;
+        font-weight: bold;
+        background: #ff8f06;
+    }
+}

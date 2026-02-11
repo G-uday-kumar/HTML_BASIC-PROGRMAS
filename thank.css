@@ -1,0 +1,39 @@
+div {
+    background: #beacac;
+
+    h1 {
+        color: blueviolet;
+        text-align: center;
+        text-decoration: double;
+        font-size: 50px;
+        background: #786cde55;
+    }
+
+    h4 {
+        color: blueviolet;
+        text-align: justify;
+        text-decoration: aqua;
+    }
+
+    p {
+        color: blueviolet;
+        text-align: justify;
+        text-decoration: aqua;
+    }
+
+    #oj {
+        text-align: center;
+        color-scheme: inherit;
+        color: rgb(252, 252, 252);
+        font-size: 20px;
+        font-weight: bold;
+        background: #ff8f06;
+    }
+
+    img {
+        width: 100%;
+    }
+    #nn{
+        align-items: center;
+    }
+}
