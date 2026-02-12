@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0px;
+}
+.container{
+    .navbar{
+        background-color: aqua;
+        border: 10px solid red;
+        /* margin: 50px 50px; */
+       
+        a{
+
+            
+            padding: 50px 50px;
+            color:white;
+            margin: 420px 50px;
+            font-size: 50px;
+            margin-top: 250px;
+            
+        }
+    }
+}
