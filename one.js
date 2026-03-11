@@ -1,70 +1,87 @@
-// let a=null;
-// console.log(a);
-// console.log(typeof(a));
+//  prog to check the given number is valid or not
+// let num=(prompt("enter the numvber"));
+// if (isNaN(num)||(num.length)!=10){
+//     alert("not a valid")
+// }
+// else{ 
+//     console.log("this is valid");
+// }
 
-// let a="uday"
-// console.log(Boolean(a));//true
 
-// console.log(Number(a));//NaN
-// console.log(Boolean(Number(a)));//false
-// console.log(typeof(Boolean(Number(a))));//boolean
 
-// let aa=Boolean(120);
-// console.log(aa);//true
+// prog to check currrent time is gm afternoon or evnin 5-12 gm,12-4,afternoon 4--- gn
+let time=new Date()
+let time1=time.getHours()
+console.log((time1));
+if(time1>16){
+    console.log("good evning");
+}
+else if(time1>=12){
+    console.log(" good afternoon");
+}
+else{
+    console.log("good morning");
+}
+
+
+
+
 // 
-// let a=Number(Boolean(true));
-// console.log(a);//1
-// // console.log(String(a));//1(but as a string)
-// let a=Number(Boolean(false));
-// console.log(a);
-// console.log(String(a));//0(but as a string)
-
-// let a=Boolean("");
-// console.log(a);//false
-
-// let a=Boolean(" ");
-// console.log(a);//true
+// let date=new Date();
+// let hrs=date.getHours();
+// if (hrs>16){
+//     console.log("good evning");
+// }
 
 
-// let a=Boolean("false");
-// console.log(a);//true
+// prog to check the user given inout or not
+
+// let input=prompt("enter input");
+// if ((input.length)>0){
+//     console.log("its inpout",input);
+
+// }else{
+//     alert("no input")
+// }
 
 
-// let a=Number(Boolean("false"));
-// // console.log(a);//1
 
-// let me="udkjnksnddnaaskanslkay";
-// console.log((me.length));
-// let a=console.log((me.length/2));
-// console.log(me.charAt(3));
-// console.log(me.charAt(a));//loading
+// // banking
+// console.log("Welcome to bank");
+// let option = prompt("Enter anyone of the following option to begin the transacition \n 1.Deposit,\n 2.withdrawal,\n 3.balance").toLowerCase()
+// let balance = 12000;
+// if (option === "1" || option === "d" || option === "deposit") {
+//     // console.log("enter the amount:");
+//     let amount = Number(prompt("enter the amount:"))
+//     if (isNaN(amount) || amount < 0) {
+//         alert("invalid input so deposition not possible")
+//     }
+//     else {
 
- let aa="uday kumar";
- let ab="kumar";
- let ac="Godder";
-// console.log(aa.concat(" ").concat(ab).concat(" ").concat(ac));
+//         balance += amount
+//         console.log("total amount is after deposition:- ", balance);
+//     }
+// }
+// else if (option === "2" || option === "w" || option === "withdrawal") {
+//     let amount = Number(prompt("enter amount to withdrawal"))
+//     if (isNaN(amount)  || amount < 0) {
+//         alert("WITHDRAWAL NOT POSIBLE")
+//     }
+//     else if(amount > balance){
+//         console.log("invsufficient balance");
+//     }
+//     else {
+//         balance -= amount
+//         console.log("withdrawd is:-", amount);
+//     }
+// }
+// else if (option === "3" || option === "b" || option === "balance") {
+//     console.log("total balance is", balance);
+// }
+// else {
+//     alert("invalid option")
+// }
 
-// console.log(aa.endsWith("ay"));//true
-// console.log(ac.endsWith("odder"));//true
-// console.log(ac.endsWith("od"));//false
 
-// // includes
-// console.log(aa.includes("uda"));//true
-// console.log(aa.includes("da"));//true
-// console.log(aa.includes("ua"));//false
 
-// //indexof
-// console.log(aa.indexOf("y"));
-// console.log(aa.lastIndexOf("u"));
 
-//padend and padstart
-// console.log("udya".padEnd(16,"x"));//ex we areusing in the bank and all for number for privacy
-// console.log("9353".padEnd(10,"x"));
-// console.log("5831".padStart(10,"x"));
-// console.log("4296".padStart(12,"0"));
-// console.log("kumar".padStart(10,"-"));
-
-console.log(aa.repeat(3));//multiple times printing
-
-console.log(aa.split(""));//(10) ['u', 'd', 'a', 'y', ' ', 'k', 'u', 'm', 'a', 'r']
-console.log(aa.split("").join("/"));
