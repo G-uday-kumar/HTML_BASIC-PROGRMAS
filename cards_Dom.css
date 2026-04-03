@@ -1,0 +1,21 @@
+.card{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+}
+input{
+    background-color: beige;
+     border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+button{
+     background-color: beige;
+     border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
